@@ -6,7 +6,6 @@ import { useEffect, useState } from 'react';
 import ThemeWrapper from './components/ThemeWrapper';
 import Header from './components/Header';
 
-
 function App() {
   const [reload, setReload] = useState<boolean>(false);
   const [darkMode, setDarkMode] = useState<boolean>(localStorage?.theme === 'dark' ? true : false);
